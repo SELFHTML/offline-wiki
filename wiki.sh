@@ -6,3 +6,5 @@ httrack 'http://wiki.selfhtml.org/' \
   '-*index.php?title=*'     `# Skip aliases` \
   '-*api.php*'              `# Skip API` \
   '-*Spezial:*'             `# Skip move pages, search pages, link pages, changes from references` \
+  '-*Benutzer:*'            `# Skip user pages` \
+  '-*Diskussion:*'          `# Skip discussion pages` \
